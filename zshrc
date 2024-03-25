@@ -69,3 +69,14 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
+
+alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login" 
+
+export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/sbin:$PATH
+export PATH=/opt/homebrew/bin:/Users/kenji/.yarn/bin:/Users/kenji/.config/yarn/global/node_modules/.bin:./bin:./node_modules/.bin:/Users/kenji/.nvm/versions/node/v16.13.1/bin:/Users/kenji/.rbenv/shims:/Users/kenji/.rbenv/bin:/opt/local/bin:/opt/local/sbin:/Users/kenji/.pyenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/sbin
+export PATH=/opt/homebrew/bin:/Users/kenji/.yarn/bin:/Users/kenji/.config/yarn/global/node_modules/.bin:./bin:./node_modules/.bin:/Users/kenji/.nvm/versions/node/v16.13.1/bin:/Users/kenji/.rbenv/shims:/Users/kenji/.rbenv/bin:/opt/local/bin:/opt/local/sbin:/Users/kenji/.pyenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/sbin
